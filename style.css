@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  width: 100%;
+  display: grid;
+  /* grid-template-columns: 300px 300px 300px; */
+  /* grid-template-columns: 25% 50% 25%; */
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 100px 100px;
+}
+/* 
+main div {
+  width: 100%;
+} */
+
+.box1 {
+  background-color: aquamarine;
+  height: 30px;
+}
+
+.box2 {
+  background-color: chocolate;
+  height: 30px;
+}
+
+.box3 {
+  background-color: cornflowerblue;
+  height: 30px;
+}
